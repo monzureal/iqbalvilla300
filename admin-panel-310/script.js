@@ -8,6 +8,6 @@
   } else {
     alert("Access denied!");
     document.body.innerHTML = "";
-    window.location.href = "../wifi/index.html";
+    window.location.href = "../input/index.html";
   }
 })();
