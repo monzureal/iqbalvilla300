@@ -1,5 +1,5 @@
 function checkPassword() {
-  const PASSWORD = "IqbalVilla310"; // change this
+  const PASSWORD = "683958"; // change this
   const entered = document.getElementById("password").value;
 
   if (entered === PASSWORD) {
