@@ -3,9 +3,9 @@ function checkPassword() {
   const entered = document.getElementById("password").value;
 
   if (entered === PASSWORD) {
-    // redirect to the REAL input page
+    sessionStorage.setItem("admin", "true");
     window.location.href = "index.html";
   } else {
-    alert("Wrong password!");
+    alert("Wrong password");
   }
 }
