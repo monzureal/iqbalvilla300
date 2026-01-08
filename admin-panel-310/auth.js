@@ -9,8 +9,6 @@ function checkPassword() {
     window.location.href = "login.html";
 
   } else {
-    alert("Wrong password!");
-
     // Redirect on wrong password (YOU will fill this path)
     window.location.href = "reject.html";
   }
