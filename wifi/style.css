@@ -19,63 +19,6 @@ p {
   font-weight: bold;
 }
 
-.info-section {
-  display: flex;
-  flex-direction: column;
-  gap: 0.6rem;
-  background: #f8f9fa;
-  padding: 1rem;
-  border-radius: 8px;
-  margin-bottom: 1rem;
-  font-family: Arial, sans-serif;
-}
-
-.info-row {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  font-size: 0.95rem;
-  gap: 0.4rem;
-}
-
-.info-row .label {
-  font-weight: bold;
-  color: #333;
-}
-
-.info-row .value {
-  color: #555;
-}
-
-.info-row.note {
-  flex-basis: 100%;
-  font-size: 0.9rem;
-  color: #444;
-  margin-top: 0.2rem;
-}
-
-.info-row .bangla {
-  margin-left: 0.5rem;
-  color: #c00;
-}
-
-.qr-row {
-  flex-direction: column;
-  align-items: flex-start;
-  margin-top: 0.5rem;
-}
-
-.qr-row img.qr {
-  max-width: 120px;
-  height: auto;
-  margin-bottom: 0.3rem;
-}
-
-.qr-row .qr-text {
-  font-size: 0.9rem;
-  color: #555;
-}
-
 .qr {
   display: block;
   margin: 10px auto;
