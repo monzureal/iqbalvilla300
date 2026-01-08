@@ -1,5 +1,5 @@
 (function () {
-  const PASSWORD = "IqbalVilla310"; // CHANGE THIS
+  const PASSWORD = "683958"; // CHANGE THIS
 
   const entered = prompt("Enter access password:");
 
