@@ -6,12 +6,12 @@ function checkPassword() {
     sessionStorage.setItem("admin", "true");
 
     // Redirect on correct password (FILL PATH IF NEEDED)
-    window.location.href = "/login.html";
+    window.location.href = "./login.html";
 
   } else {
     alert("Wrong password!");
 
     // Redirect on wrong password (YOU will fill this path)
-    window.location.href = "/reject.html";
+    window.location.href = "./reject.html";
   }
 }
