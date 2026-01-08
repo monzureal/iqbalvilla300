@@ -12,6 +12,6 @@ function checkPassword() {
     alert("Wrong password!");
 
     // Redirect on wrong password (YOU will fill this path)
-    window.location.href = "./reject.html";
+    window.location.href = "/iqbalvilla300/admin-panel-310/reject.html";
   }
 }
